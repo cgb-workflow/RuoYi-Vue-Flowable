@@ -5,8 +5,9 @@
 记得右上角点个 star 持续关注更新哟 ~ ~
 
 ## 项目地址
-Gitee：https://gitee.com/tony2y/RuoYi-flowable.git
-GitHub：https://github.com/tony2y/RuoYi-flowable.git
+Gitee：https://gitee.com/zhloong/RuoYi-Vue-Flowable.git
+
+GitHub：https://github.com/zhl-yang/RuoYi-Vue-Flowable.git
 
 ## 特别鸣谢
 
