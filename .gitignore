@@ -24,5 +24,6 @@
 hs_err_pid*
 
 # IdeaIU project files
-.idea
+/.idea/
 /target/
+/target/class/

@@ -216,6 +216,12 @@
             </dependency>
 
             <dependency>
+                <groupId>p6spy</groupId>
+                <artifactId>p6spy</artifactId>
+                <version>3.8.0</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.flowable</groupId>
                 <artifactId>flowable-spring-boot-starter-basic</artifactId>
                 <version>${flowable.version}</version>
