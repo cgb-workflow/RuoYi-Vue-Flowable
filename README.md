@@ -73,8 +73,8 @@ GitHub：https://github.com/zhl-yang/RuoYi-Vue-Flowable.git
 - admin/admin123
 - tony/admin123
 
-演示地址：http://vue.ruoyi.vip  
-文档地址：http://doc.ruoyi.vip
+演示地址：http://www.tony2y.top
+文档地址：https://www.yuque.com/u1024153/icipor
 
 ## 演示图
 
