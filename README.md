@@ -1,3 +1,21 @@
+## 项目说明
+
+基RuoYi-vue  + flowable 6.7.2 的工作流管理 升级RuoYi-vue为v3.8.2
+
+记得右上角点个 star 持续关注更新哟 ~ ~
+
+## 项目地址
+Gitee：https://gitee.com/tony2y/RuoYi-flowable.git
+GitHub：https://github.com/tony2y/RuoYi-flowable.git
+
+## 特别鸣谢
+
+[RuoYi](https://gitee.com/y_project/RuoYi-Vue) |
+[RuoYi-flowable](https://gitee.com/tony2y/RuoYi-flowable.git) |
+[流程设计器](https://github.com/GoldSubmarine/workflow-bpmn-modeler) |
+[表单设计器](https://github.com/JakHuang/form-generator)
+
+## RuoYi平台
 <p align="center">
 	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-d3d0a9303e11d522a06cd263f3079027715.png">
 </p>
@@ -22,20 +40,18 @@
 * 提供了单应用版本[RuoYi-Vue-fast](https://github.com/yangzongzhuan/RuoYi-Vue-fast)，Oracle版本[RuoYi-Vue-Oracle](https://github.com/yangzongzhuan/RuoYi-Vue-Oracle)，保持同步更新。
 * 不分离版本，请移步[RuoYi](https://gitee.com/y_project/RuoYi)，微服务版本，请移步[RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud)
 * 特别鸣谢：[element](https://github.com/ElemeFE/element)，[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)，[eladmin-web](https://github.com/elunez/eladmin-web)。
-* 阿里云折扣场：[点我进入](http://aly.ruoyi.vip)，腾讯云秒杀场：[点我进入](http://txy.ruoyi.vip)&nbsp;&nbsp;
-* 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)，腾讯云优惠券：[点我领取](https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=198c8df2ed259157187173bc7f4f32fd&from=console)&nbsp;&nbsp;
 
 ## 内置功能
 
-1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
-2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
-3.  岗位管理：配置系统用户所属担任职务。
-4.  菜单管理：配置系统菜单，操作权限，按钮权限标识等。
-5.  角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
-6.  字典管理：对系统中经常使用的一些较为固定的数据进行维护。
-7.  参数管理：对系统动态配置常用参数。
-8.  通知公告：系统通知公告信息发布维护。
-9.  操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
+1. 用户管理：用户是系统操作者，该功能主要完成系统用户配置。
+2. 部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
+3. 岗位管理：配置系统用户所属担任职务。
+4. 菜单管理：配置系统菜单，操作权限，按钮权限标识等。
+5. 角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
+6. 字典管理：对系统中经常使用的一些较为固定的数据进行维护。
+7. 参数管理：对系统动态配置常用参数。
+8. 通知公告：系统通知公告信息发布维护。
+9. 操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
 10. 登录日志：系统登录日志记录查询包含登录异常。
 11. 在线用户：当前系统中活跃用户状态监控。
 12. 定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。
@@ -44,12 +60,17 @@
 15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 16. 缓存监控：对系统的缓存信息查询，命令统计等。
 17. 在线构建器：拖动表单元素生成相应的HTML代码。
-18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。 
+19. 流程设计 
+20. 表单配置 
+21. 流程发起 
+22. 流转处理
+
 
 ## 在线体验
 
-- admin/admin123  
-- 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
+- admin/admin123
+- tony/admin123
 
 演示地址：http://vue.ruoyi.vip  
 文档地址：http://doc.ruoyi.vip
@@ -89,9 +110,13 @@
         <td><img src="https://oscimg.oschina.net/oscnet/b6115bc8c31de52951982e509930b20684a.jpg"/></td>
         <td><img src="https://oscimg.oschina.net/oscnet/up-5e4daac0bb59612c5038448acbcef235e3a.png"/></td>
     </tr>
+    <tr>
+        <td><img src="https://images.gitee.com/uploads/images/2021/0407/212557_dfb07bda_2042292.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2021/0407/212924_eb53cb0f_2042292.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://images.gitee.com/uploads/images/2021/0708/113619_496e5f03_2042292.png"/></td>
+        <td><img src="https://images.gitee.com/uploads/images/2021/0407/213126_462c4290_2042292.png"/></td>
+    </tr>
 </table>
 
-
-## 若依前后端分离交流群
-
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-937441-blue.svg)](https://jq.qq.com/?_wv=1027&k=5bVB1og) [![加入QQ群](https://img.shields.io/badge/已满-887144332-blue.svg)](https://jq.qq.com/?_wv=1027&k=5eiA4DH) [![加入QQ群](https://img.shields.io/badge/已满-180251782-blue.svg)](https://jq.qq.com/?_wv=1027&k=5AxMKlC) [![加入QQ群](https://img.shields.io/badge/已满-104180207-blue.svg)](https://jq.qq.com/?_wv=1027&k=51G72yr) [![加入QQ群](https://img.shields.io/badge/已满-186866453-blue.svg)](https://jq.qq.com/?_wv=1027&k=VvjN2nvu) [![加入QQ群](https://img.shields.io/badge/已满-201396349-blue.svg)](https://jq.qq.com/?_wv=1027&k=5vYAqA05) [![加入QQ群](https://img.shields.io/badge/已满-101456076-blue.svg)](https://jq.qq.com/?_wv=1027&k=kOIINEb5) [![加入QQ群](https://img.shields.io/badge/已满-101539465-blue.svg)](https://jq.qq.com/?_wv=1027&k=UKtX5jhs) [![加入QQ群](https://img.shields.io/badge/已满-264312783-blue.svg)](https://jq.qq.com/?_wv=1027&k=EI9an8lJ) [![加入QQ群](https://img.shields.io/badge/167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz) 点击按钮入群。
